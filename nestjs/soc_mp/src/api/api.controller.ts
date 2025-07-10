@@ -26,7 +26,7 @@ export class ApiController {
     @Delete('/:id')
     deleteApi(@Param('id') id:number){
         this.apiService.deleteApi(id);
-        return `Task ${id} Deleted`
+        return `Task ${id} Deleted Account`
     }
 
     @Patch('/:id')
